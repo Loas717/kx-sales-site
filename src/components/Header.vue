@@ -1,7 +1,7 @@
 <!-- src/components/Header.vue -->
 <template>
     <header class="header">
-        <h1>KX Sales Manager</h1>
+        <h1>KX Vendas Admin</h1>
     </header>
 </template>
 

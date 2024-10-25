@@ -25,11 +25,11 @@
     </script>
     <style scoped>
     .sidebar {
-        width: 200px; /* Set a fixed width */
-        height: 100vh; /* Make it full height */
+        width: 200px; 
+        height: 100vh;
         background-color: #f4f4f4;
         padding: 20px;
-        position: relative; /* Ensure it's positioned correctly */
+        position: relative; 
     }
     
     .sidebar ul {
