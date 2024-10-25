@@ -56,11 +56,10 @@ const openCriaDialog = (client) => {
 };
 const createVenda = async () => {
     const newVenda = {
-        clienteId: CurrentVendas.clienteId,
-        total: CurrentVendas.total,
-        dataVenda: CurrentVendas.dataVenda,
+        clienteId: CurrentVendas.value.clienteId,
+        total: CurrentVendas.value.total,
+        dataVenda: CurrentVendas.value.dataVenda,
     };
-
     try {
         await axios.post('http://localhost:3000/api/vendas', newVenda);
         await getVendas(); 
